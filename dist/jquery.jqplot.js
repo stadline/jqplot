@@ -6,7 +6,7 @@
  * About: Version
  * 
  * version: 1.0.8 
- * revision: 1250
+ * revision: abandon : there is no Mercurial repository here (.hg not found)
  * 
  * About: Copyright & License
  * 
@@ -245,7 +245,7 @@
     };
 
     $.jqplot.version = "1.0.8";
-    $.jqplot.revision = "1250";
+    $.jqplot.revision = "abandon : there is no Mercurial repository here (.hg not found)";
 
     $.jqplot.targetCounter = 1;
 

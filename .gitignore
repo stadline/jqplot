@@ -5,7 +5,6 @@ NDdata/Data*
 config.xml
 myconfig.xml
 build
-dist
 web
 
 # extras
