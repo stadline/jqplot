@@ -346,7 +346,7 @@
                 }
                 elem.css('left', ell);
                 elem.css('top', elt);
-                var elr = ell + elem.width();
+                var elc = ell + elem.width() / 2;
                 var elb = elt + elem.height();
                 var et = p.edgeTolerance;
                 var scl = $(sctx.canvas).position().left;
@@ -354,7 +354,7 @@
                 var scr = sctx.canvas.width + scl;
                 var scb = sctx.canvas.height + sct;
                 // if label is outside of allowed area, remove it
-                if (ell - et < scl || elt - et < sct || elr + et > scr || elb + et > scb) {
+                if (elc < scl || elt - et < sct || elc > scr || elb + et > scb) {
                     elem.remove();
                 }
 
